@@ -27,7 +27,7 @@ add comments.
 
 %description -l pl
 Modu³ ten dostarcza zorientowanego obiektowo interfejsu do plików Ogg
-Vorbis. Pozwala u¿ytkownikowi na odczyt/modyfikacjê pól informacji 
+Vorbis. Pozwala u¿ytkownikowi na odczyt/modyfikacjê pól informacji
 i komentarzy plików Ogg Vorbis.
 
 %prep

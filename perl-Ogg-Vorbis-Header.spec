@@ -26,9 +26,9 @@ which allows user to view Vorbis info and comments and to modify or
 add comments.
 
 %description -l pl
-Ten modu³ dostarcza zorientowanego obiektowo interfejsu do plików Ogg
-Vorbis, pozwalaj±c u¿ytkownikowi do odczytania informacji informajci i
-komentarzy oraz do modyfikowania lub dodawania komentarzy.
+Modu³ ten dostarcza zorientowanego obiektowo interfejsu do plików Ogg
+Vorbis. Pozwala u¿ytkownikowi na odczyt/modyfikacjê pól informacji 
+i komentarzy plików Ogg Vorbis.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

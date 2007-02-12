@@ -6,7 +6,7 @@
 %define	pdir	Ogg
 %define	pnam	Vorbis-Header
 Summary:	Ogg::Vorbis::Header - an object-oriented interface to Ogg Vorbis information and comment fields
-Summary(pl):	Ogg::Vorbis::Header - zorientowany obiektowo interfejs do pól informacji i komentarza Ogg Vorbis
+Summary(pl.UTF-8):   Ogg::Vorbis::Header - zorientowany obiektowo interfejs do pÃ³l informacji i komentarza Ogg Vorbis
 Name:		perl-Ogg-Vorbis-Header
 Version:	0.03
 Release:	1
@@ -25,10 +25,10 @@ This module presents an object-oriented interface to Ogg Vorbis files
 which allows user to view Vorbis info and comments and to modify or
 add comments.
 
-%description -l pl
-Modu³ ten dostarcza zorientowanego obiektowo interfejsu do plików Ogg
-Vorbis. Pozwala u¿ytkownikowi na odczyt/modyfikacjê pól informacji
-i komentarzy plików Ogg Vorbis.
+%description -l pl.UTF-8
+ModuÅ‚ ten dostarcza zorientowanego obiektowo interfejsu do plikÃ³w Ogg
+Vorbis. Pozwala uÅ¼ytkownikowi na odczyt/modyfikacjÄ™ pÃ³l informacji
+i komentarzy plikÃ³w Ogg Vorbis.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

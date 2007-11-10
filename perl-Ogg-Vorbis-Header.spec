@@ -9,7 +9,7 @@ Summary:	Ogg::Vorbis::Header - an object-oriented interface to Ogg Vorbis inform
 Summary(pl.UTF-8):	Ogg::Vorbis::Header - zorientowany obiektowo interfejs do pól informacji i komentarza Ogg Vorbis
 Name:		perl-Ogg-Vorbis-Header
 Version:	0.03
-Release:	1
+Release:	2
 License:	GPL v2+ / LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -53,4 +53,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorarch}/Ogg/Vorbis/Header.pm
+%dir %{perl_vendorarch}/auto/Ogg
+%dir %{perl_vendorarch}/auto/Ogg/Vorbis
+%dir %{perl_vendorarch}/auto/Ogg/Vorbis/Header
+%{perl_vendorarch}/auto/Ogg/Vorbis/Header/Header.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Ogg/Vorbis/Header/Header.so
 %{_mandir}/man3/*

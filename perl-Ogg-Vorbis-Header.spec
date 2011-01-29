@@ -15,7 +15,10 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d1c435e79d3f019147be734281e8a908
 URL:		http://www.cpan.org/modules/by-module/Ogg/
+BuildRequires:	libogg-devel
+BuildRequires:	libvorbis-devel
 BuildRequires:	perl-Inline-C
+BuildRequires:	perl-Parse-RecDescent
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -36,7 +39,7 @@ i komentarzy plików Ogg Vorbis.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-%{__make}
+%{__make} -j1
 
 %{?with_tests:%{__make} test}
 

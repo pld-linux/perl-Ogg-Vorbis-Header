@@ -59,6 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Ogg
 %dir %{perl_vendorarch}/auto/Ogg/Vorbis
 %dir %{perl_vendorarch}/auto/Ogg/Vorbis/Header
-%{perl_vendorarch}/auto/Ogg/Vorbis/Header/Header.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Ogg/Vorbis/Header/Header.so
 %{_mandir}/man3/*

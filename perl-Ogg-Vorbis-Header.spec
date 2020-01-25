@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Ogg
 %define	pnam	Vorbis-Header
 Summary:	Ogg::Vorbis::Header - an object-oriented interface to Ogg Vorbis information and comment fields
